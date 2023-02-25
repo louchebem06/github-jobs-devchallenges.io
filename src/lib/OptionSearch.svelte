@@ -1,13 +1,14 @@
 <script lang="ts">
 	export let onchange: any;
 	export let value: string;
+	export let option: string;
 </script>
 
 <div class="search">
 	<span class="material-symbols-rounded">
 		public
 	</span>
-	<input on:keydown={onchange} bind:value={value} type="text" placeholder="City, state, zip code or country"/>
+	<input on:keydown={() => {option="", onchange()}} bind:value={value} type="text" placeholder="City, state, zip code or country"/>
 </div>
 
 <style>

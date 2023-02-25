@@ -1,0 +1,32 @@
+[
+	{
+	  "id": 123,
+	  "title": "Développeur front-end senior",
+	  "compagnie": "Acme Inc.",
+	  "expertise": ["HTML", "CSS", "JavaScript", "React"],
+	  "benefits": ["Assurance santé", "Plan de retraite", "Jours de congé payés"],
+	  "fulltime": true,
+	  "city": "San Francisco",
+	  "state": "Californie",
+	  "zipcode": "94107",
+	  "country": "États-Unis",
+	  "logo": "https://acmeinc.com/logo.png",
+	  "publish": "25 février 2023",
+	  "content": "Nous recherchons un développeur front-end senior pour rejoindre notre équipe de développement web. Le candidat idéal aura une solide expérience en HTML, CSS, JavaScript et React, et sera capable de travailler sur des projets complexes. Nous offrons une assurance santé, un plan de retraite et des jours de congé payés."
+	},
+	{
+	  "id": 456,
+	  "title": "Spécialiste du marketing numérique",
+	  "compagnie": "XYZ Corporation",
+	  "expertise": ["SEO", "SEM", "Google Analytics", "Marketing des médias sociaux"],
+	  "benefits": ["Assurance santé", "Plan de retraite", "Jours de congé payés"],
+	  "fulltime": true,
+	  "city": "New York",
+	  "state": "New York",
+	  "zipcode": "10001",
+	  "country": "États-Unis",
+	  "logo": "https://xyzcorp.com/logo.png",
+	  "publish": "25 février 2023",
+	  "content": "Nous recherchons un spécialiste du marketing numérique pour rejoindre notre équipe marketing. Le candidat idéal aura une solide expérience en SEO, SEM, Google Analytics et marketing des médias sociaux. Nous offrons une assurance santé, un plan de retraite et des jours de congé payés."
+	}
+]

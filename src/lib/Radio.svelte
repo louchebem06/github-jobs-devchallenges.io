@@ -4,10 +4,11 @@
 	export let checked: boolean = false;
 	export let group: string;
 	export let onchange: any;
+	export let search: string;
 </script>
 
 <div class="radio">
-	<input on:change={onchange} bind:group={group} id="{name}-{value}" type="radio" {name} {value} {checked} />
+	<input on:change={() => {search = "", onchange()}} bind:group={group} id="{name}-{value}" type="radio" {name} {value} {checked} />
 	<label for="{name}-{value}">{value}</label>
 </div>
 

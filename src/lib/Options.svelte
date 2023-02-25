@@ -13,13 +13,13 @@
 
 <h3>Location</h3>
 
-<OptionSearch onchange={onchange} bind:value={value}/>
+<OptionSearch onchange={onchange} bind:option={option} bind:value={value}/>
 
 <div class="radios">
-	<Radio onchange={onchange} bind:group={option} name="city" value="London" />
-	<Radio onchange={onchange} bind:group={option} name="city" value="Amsterdam" />
-	<Radio onchange={onchange} bind:group={option} name="city" value="New York" />
-	<Radio onchange={onchange} bind:group={option} name="city" value="Berlin" />
+	<Radio onchange={onchange} bind:group={option} name="city" value="London" bind:search={value} />
+	<Radio onchange={onchange} bind:group={option} name="city" value="Amsterdam" bind:search={value} />
+	<Radio onchange={onchange} bind:group={option} name="city" value="New York" bind:search={value} />
+	<Radio onchange={onchange} bind:group={option} name="city" value="Berlin" bind:search={value} />
 </div>
 
 <style>
