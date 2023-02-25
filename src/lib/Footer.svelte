@@ -12,6 +12,7 @@
 		max-width: 1200px;
 		margin: 0 12px;
 		user-select: none;
+		margin-bottom: 24px;
 	}
 
 	footer p, footer p a {

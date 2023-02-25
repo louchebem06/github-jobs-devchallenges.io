@@ -15,8 +15,6 @@
 	.search {
 		width: 379px;
 		height: calc(48px - 14px);
-		left: 120px;
-		top: 368px;
 		background: #FFFFFF;
 		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
 		border-radius: 4px;
@@ -41,5 +39,11 @@
 
 	span {
 		margin-right: 14px;
+	}
+
+	@media screen and (max-width: 425px) {
+		.search {
+			width: calc(100% - 36px);
+		}
 	}
 </style>
